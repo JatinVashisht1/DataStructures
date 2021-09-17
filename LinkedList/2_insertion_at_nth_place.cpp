@@ -1,6 +1,4 @@
 #include<iostream>
-#include<memory>
-#include<utility>
 using namespace std;
 class Node{
     public:
