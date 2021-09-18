@@ -9,18 +9,18 @@ class Node{
 
 Node* reverseLinkedList(Node* head)
 {
-    Node *curr, *pre, *next;
+    Node *curr, *pre, *next;// three variables curr, pre, next are pointers to store the address of current, previous, next node respectively
     curr = head;
     pre = NULL;
     while(curr != NULL){
-        next = curr->next;
-        curr->next = pre;
-        pre = curr;
-        curr = next;
+        next = curr->next;//store next as curr->next
+        curr->next = pre;//make next address of current node as address of previous node
+        pre = curr;//after operation is done, assign current node as previous node
+        curr = next;//increment current node to the next node stored in variable next
     }
 
-    head = pre;
-    return head;
+    head = pre;//assign the head variable to the pre, i.e, previous node as the list is now reversed
+    return head;//return the updated head variable
 }
 
 void insertNode(Node** head, int data, int pos){
