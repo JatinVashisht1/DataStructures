@@ -9,7 +9,10 @@ class Node{
 
 void reverse(Node** head, Node* p){
 
-    if(p->next == NULL){
+    //breaking condition for recursion
+    //at this point the head will point to the last element of the list
+    if(p->next == NULL)
+    {
         (*head) = p;
         // cout<<"Entered the if statement\n";
         return;
