@@ -6,9 +6,9 @@ using namespace std;
 /**
  * This is array implementation of stack
  * Dynamic array is not used in below case
- * Best time complexity = O(1) (popping)
- * Worst time complexity = O(n) (popping)
- * Average time complexity = o(1) (popping)
+ * Best time complexity = O(1) (popping and pushing)
+ * Worst time complexity = O(n) (popping and pushing)
+ * Average time complexity = o(1) (popping and pushing)
 */
 
 class Stack{
