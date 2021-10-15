@@ -1,3 +1,5 @@
+/* By Jatin Vashisht */
+
 #include <iostream>
 #include <string>
 using namespace std;
