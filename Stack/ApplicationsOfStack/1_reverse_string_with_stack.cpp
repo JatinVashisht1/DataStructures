@@ -83,9 +83,8 @@ string reverseString(string s)
 
 int main()
 {
-    Stack obj;
-
     /* Following operations were done in order to validate the functioning of array
+    Stack obj;
     obj.push(55);
     obj.push(60);
     obj.push(65);
