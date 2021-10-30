@@ -1,7 +1,7 @@
 /**
  * By Jatin Vashisht
  * Array implementation of queue with circular array
- * you can also use dynamic array incase of overflow condition
+ * We can also use dynamic array in case of overflow condition
  */
 
 #include <iostream>
