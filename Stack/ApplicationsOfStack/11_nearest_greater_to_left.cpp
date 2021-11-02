@@ -19,7 +19,6 @@ vector<int> nGL(int* arr, int size){
     for(int i = 0; i<size; i++){
         if(s.empty()){
             result.push_back(-1);
-            s.push(arr[i]);
         }else if(!s.empty() && s.top() > arr[i]){
             result.push_back(s.top());
 
