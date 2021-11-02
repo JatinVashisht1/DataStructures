@@ -3,6 +3,7 @@
  * By Jatin Vashisht
  * Program to find nearest greates to right of each element of array
  * We can apply stack when two nested loops i and j such that j loop is nested inside i and j depends upon i
+ * This problem is also known as "Next Largest Element"
 */
 
 #include <iostream>
