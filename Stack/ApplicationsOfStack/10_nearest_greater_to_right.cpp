@@ -4,7 +4,7 @@
  * Program to find nearest greates to right of each element of array
  * We can apply stack when two nested loops i and j such that j loop is nested inside i and j depends upon i
  * This problem is also known as "Next Largest Element"
-*/
+ */
 
 #include <iostream>
 #include <stack>
@@ -21,7 +21,6 @@ vector<int> nGR(int *arr, int size)
         if (s.empty())
         {
             v.push_back(-1);
-            s.push(arr[i]);
         }
         else if (!s.empty() && s.top() > arr[i])
         {
