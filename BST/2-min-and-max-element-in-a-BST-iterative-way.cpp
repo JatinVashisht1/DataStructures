@@ -73,7 +73,7 @@ int findMax(Node *root)
     {
         return -1;
     }
-    // keep going right until we get a leaf node
+    // keep going right until we get a leaf node, or a node with no left child node
     while (root->right != NULL)
     {
         root = root->right;
