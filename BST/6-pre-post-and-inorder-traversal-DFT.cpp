@@ -4,7 +4,7 @@
  * Program for pre, post and inorder traversal (three ways of Depth First Traversal)
  * T.C = O(n), n = number of nodes
  * S.C = O(h), h = height of tree
- * height of tree in worst case is proportional to n and in worst case is proportional to log(n)
+ * height of tree in worst case is proportional to n and in best/average case is proportional to log(n)
  * Therefore, S.C = O(n), in worst case and S.C = O(log n), in best/average case
  */
 
