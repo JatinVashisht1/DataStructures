@@ -73,7 +73,7 @@ bool isBstUtil(Node *root, int minValue, int maxValue)
 
 /**
  * @brief  function to check Binary Tree is BST or not
- * @param  root: root node of Binary Tree
+ * @param  *root: root node of Binary Tree
  * @retval true if tree is BST and false otherwise
  */
 bool isBst(Node* root){
