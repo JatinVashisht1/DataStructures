@@ -3,7 +3,8 @@
  * @author Jatin Vashisht
  * @brief  Program to check if given Binary Tree is BST or not
  * @note   This is just a tweak of Inorder traversal, because inorder traversal give us a sorted list
- * @details In this method, unlike inorder traversal we donot print the current element of tree. But instead we maintain a stack of integer and compare the top element of stack with current element of tree and push it onto stack if s.top() < root->data and we return false if s.top() > root->data
+ * @details In this method, unlike inorder traversal we donot print the current element of tree. But instead we maintain a stack of integer and 
+ compare the top element of stack with current element of tree and push it onto stack if s.top() < root->data and we return false if s.top() > root->data
  */
 
 #include <iostream>
