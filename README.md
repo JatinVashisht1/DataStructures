@@ -6,6 +6,7 @@ Programs for various data structures, and their applications.
 
 ## Documentation
 
+[Recursion](https://github.com/JatinVashisht1/DataStructures/tree/main/Recursion)\
 [BST](https://github.com/JatinVashisht1/DataStructures/tree/main/BST)\
 [Pointers](https://github.com/JatinVashisht1/DataStructures/tree/main/Pointers)\
 [Linked List](https://github.com/JatinVashisht1/DataStructures/tree/main/LinkedList)\
