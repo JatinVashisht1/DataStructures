@@ -44,9 +44,11 @@ void bubbleSort(int a[], int size)
 
 void swap_numbers(int *a, int *b)
 {
+    if(*a != *b){
     *a = *a ^ *b;
     *b = *b ^ *a;
     *a = *a ^ *b;
+    }
 }
 
 void printArray(int a[], int size)
