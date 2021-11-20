@@ -9,7 +9,7 @@ using namespace std;
 
 /**
  * @brief  Function to perform bubble sort recursively
- * @param  *arr: array which is to sort
+ * @param  *arr: array which is to be sorted
  * @param  n: size of array
  * @retval None
  */
