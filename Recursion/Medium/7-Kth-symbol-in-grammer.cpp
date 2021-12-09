@@ -1,6 +1,6 @@
 
 /**
- * @brief  Program for Kth Symbol in grammer
+ * @brief  Program for Kth Symbol in grammer (LeetCode)
  * @author Jatin Vashisht
  * @retval None
  */
