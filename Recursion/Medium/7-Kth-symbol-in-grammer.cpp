@@ -2,7 +2,6 @@
 /**
  * @brief  Program for Kth Symbol in grammar (LeetCode)
  * @author Jatin Vashisht
- * @retval None
  */
 
 #include <iostream>
