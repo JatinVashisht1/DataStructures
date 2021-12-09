@@ -1,6 +1,6 @@
 
 /**
- * @brief  Program for Kth Symbol in grammer (LeetCode)
+ * @brief  Program for Kth Symbol in grammar (LeetCode)
  * @author Jatin Vashisht
  * @retval None
  */
@@ -10,7 +10,7 @@
 using namespace std;
 
 /**
- * @brief  Function to find Kth symbol in grammer
+ * @brief  Function to find Kth symbol in grammar
  * @note   This problem requires observational skills
  * @param  N: Nth row
  * @param  k: kth column
